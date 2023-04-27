@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: django-resume-builder  
+    ports:
+      - "8000:8000"
+    environment:
+       FAUNA_SECRET: 'fnAFCkMy6YAA0apFVVqJ9wN_bqYJPvagBiaYoeCA'
